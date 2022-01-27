@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ennemy
+  - DeathBounds
+  - Bullet
+  - Body
+  - ShootPoint
+  - WinFlag
+  - Bullet_Ennemy
+  - Pill
+  - SnakeController
+  - Shadow
+  - GameMan
+  - Audio
+  - AudioSourceSFX
+  - HUD
+  - Interactable
+  - AudioSourceSFXEnemy
+  - PillAtkSpUp
+  - PillProjSizeUp
+  - CountDown
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Walls
+  - PlayerProjectile
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: GroundLayer
+    uniqueID: 2723516681
+    locked: 0
+  - name: GameLayer
+    uniqueID: 3925243151
+    locked: 0

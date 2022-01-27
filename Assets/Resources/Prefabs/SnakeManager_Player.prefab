@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &69647576739464791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 69647576739464793}
+  - component: {fileID: 69647576739464792}
+  m_Layer: 0
+  m_Name: SnakeManager_Player
+  m_TagString: SnakeController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &69647576739464793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69647576739464791}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &69647576739464792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69647576739464791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89363fbee3283414b8f45cb7ed4b9f94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceOffset: 0.18
+  speed: 340
+  turnspeed: 320
+  bodyParts:
+  - {fileID: 7948108584168112640, guid: 5c881d040fbb30241b16f84003a9a905, type: 3}
+  - {fileID: 7948108584168112640, guid: 8daac50ccba48ec46b188f02e7775c98, type: 3}
+  shootShakeIntensity: 3
+  shootShakeTime: 0.15
+  snakeBody: []
+  prefabBodyType1: {fileID: 7948108584168112640, guid: e56d20c90f2c1944f95d404ce2ae9210, type: 3}
+  vcam: {fileID: 0}
+  vfxDeathPlayer: {fileID: 3567832460486748814, guid: 15c973c2e266c4c4988ae7ae14badb16, type: 3}
+  timerUntilNextBodyPartExplodes: 0.1
+  initTimerExplosion: 0.1
+  isDead: 0
+  isInTransition: 0
+  gotNextRound: 0
+  isMenuSnake: 0
+  hasFinishedCourse: 0
+  countDownFinished: 0
+  playerDeath: {fileID: 8300000, guid: 4e3ab5e64f0eb974d829a702234daab1, type: 3}
+  waypointArray: []

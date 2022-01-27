@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 35c70fef329a35e46a85ade8a3894ab7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - projectilePrefab: {instanceID: 0}
+  - mainCamera: {instanceID: 0}
+  - vfxPlayerShoot: {instanceID: 0}
+  - vfxPickUp: {instanceID: 0}
+  - fleetingScore: {fileID: 1011402062218387809, guid: fae6a52fb0e8db44a8446ddd9629f154, type: 3}
+  - headTransform: {instanceID: 0}
+  - shootPointTransform: {instanceID: 0}
+  - uiController: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
